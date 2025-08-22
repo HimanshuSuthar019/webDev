@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+body{
+    /* margin-left: 20px; */
+    background-color: lightcyan;
+}
+
+
+body a{
+    text-decoration: none;
+    
+}
+
+#resumehead{
+    margin:20px;
+    color: darkgreen;
+    font-size: 25px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 36px;
+}
+#headerInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-top: 3px;
+    font-weight: 545;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+nav{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding:10px;
+    background: #f8f9fa;
+    border-bottom: 2px solid #ddd ;
+    position: sticky;
+    top: 0;
+    z-index:100 ;
+    justify-self: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 1px solid #0073e6;
+    background:#e6ffe6;
+    transition: 0.3s ;
+}
+nav a:hover{
+    background: #0073e6;
+    color:white;
+}
+
+/* summary section */
+#summary{
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#summary h2{
+    color: rgb(7, 143, 171);
+}
+#summary p{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* technical skill section */
+#skill{
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#skill h2{
+    color: rgb(7, 143, 171);
+}
+#skill ul{
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* experience section */
+#experience{
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#experience h2{
+    
+    color: rgb(7, 143, 171);
+}
+#experience h4{
+    margin-top: 5px;
+    margin-left: 60px;
+}
+#experience p {
+    margin-top: 2px;
+    margin-left: 60px;
+}
+#experience ul{
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* #project */
+#project{
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#project h2{
+    color: rgb(7, 143, 171);
+}
+#project ul{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#project li{
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* education section */
+#education{
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#education h2{
+    color: rgb(7, 143, 171);
+}
+#education p{
+    margin-left: 95px;
+    margin-top: 3px;
+
+}
+#education li{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+/* award and extracurricular activity */
+
+#award_extra {
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#award_extra h2 {
+    color: rgb(7, 143, 171);
+}
+
+#award_extra ul{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#award_extra li{
+    /* font-weight: 300; */
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* footer  */
+
+footer{
+    margin: 70px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top: 80px;
+}
+section:target{
+    background-color: #f0f8ff;
+    border-left: 5px solid #0073e6;
+    /* padding: 10px; */
+    transition: 0.7s ease-in-out;
+}
+
+section{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0,0,0.1);
+}
